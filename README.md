@@ -1,4 +1,4 @@
-# day-1-vue
+# Anggit Yuniar Pradito | Harman Kardon
 
 ## Project setup
 ```
