@@ -5,7 +5,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/handokoadjip/slicing-day-1-vue/fork)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Day 1, I will show you the slicing to vue of the beautiful designs made by hhttps://pin.it/7hAltlS.
+Day 1, I will show you the slicing to vue of the beautiful designs made by https://pin.it/7hAltlS.
 
 For those who want to contribute, just fork or download as usual!
 
