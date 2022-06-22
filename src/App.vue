@@ -7,23 +7,23 @@
 </template>
 
 <script>
-import $ from 'jquery';
-import HeaderComponent from "@/components/HeaderComponent.vue"
-import FooterComponent from "@/components/FooterComponent.vue"
+import $ from "jquery";
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   },
-  mounted: function() {
-    $(document).ready(function() {
+  mounted: function () {
+    $(document).ready(function () {
       function mobileViewUpdate() {
         const viewportWidth = $(window).width();
-        if(viewportWidth < 600) {
-          $(".navbar.fixed-top").toggleClass("mobile");
-        }
+        viewportWidth <= 768
+          ? $(".navbar.fixed-top").addClass("mobile")
+          : $(".navbar.fixed-top").removeClass("mobile");
       }
 
       $(window).on("load", mobileViewUpdate);
@@ -31,8 +31,8 @@ export default {
 
       mobileViewUpdate();
     });
-  }
-}
+  },
+};
 </script>
 
 <style>
