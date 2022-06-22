@@ -28,6 +28,8 @@ export default {
 
       $(window).on("load", mobileViewUpdate);
       $(window).on("resize", mobileViewUpdate);
+
+      mobileViewUpdate();
     });
   }
 }
